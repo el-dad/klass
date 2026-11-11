@@ -5,8 +5,5 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "peerDependencies": {
-    "typescript": ">=5"
-  }
+  ]
 }
