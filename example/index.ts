@@ -1,7 +1,7 @@
-import { makeKlass } from '../index.ts';
-import { parseEnv } from './private/parseEnv.ts';
-import { getSecrets } from './public/getSecrets.ts';
-import { getVars } from './public/getVars.ts';
+import { makeKlass } from '..';
+import { parseEnv } from './private/parseEnv';
+import { getSecrets } from './public/getSecrets';
+import { getVars } from './public/getVars';
 
 const init = () => ({
   someState: 123,

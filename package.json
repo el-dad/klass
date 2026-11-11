@@ -1,5 +1,12 @@
 {
   "name": "klass",
   "version": "0.0.1",
-  "main": "index.ts"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "peerDependencies": {
+    "typescript": ">=5"
+  }
 }

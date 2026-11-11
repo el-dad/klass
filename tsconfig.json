@@ -1,0 +1,7 @@
+{
+  "exclude": ["example", "dist"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true
+  }
+}
